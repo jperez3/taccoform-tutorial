@@ -31,3 +31,5 @@ override.tf.json
 
 # Terraform tutorial
 secrets.tf
+
+**/.terraform.d
