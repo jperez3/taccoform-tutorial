@@ -1,0 +1,17 @@
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v2.3.0
+    hooks:
+    # -   id: check-yaml
+    # -   id: check-json
+    # -   id: end-of-file-fixer
+    -   id: trailing-whitespace
+    # -   id: detect-aws-credentials
+-   repo: https://github.com/psf/black
+    rev: 19.3b0
+    hooks:
+    -   id: black
+-   repo: git://github.com/antonbabenko/pre-commit-terraform
+    rev: v1.44.0
+    hooks:
+    -   id: terraform_fmt
